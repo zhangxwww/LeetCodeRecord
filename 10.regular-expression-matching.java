@@ -154,23 +154,6 @@ class Solution {
             }
         }
         return m || d[pcount][ls];
-        /*
-         * char[] np = new char[lp]; int[] count = new int[lp]; int nplen = 1; np[0] =
-         * pat[0]; count[0] = 1; boolean[] changeable = new boolean[lp]; changeable[0] =
-         * false; for (int i = 1; i < lp; i++) { changeable[i] = false; if (pat[i] ==
-         * '*') { count[nplen - 1]--; changeable[nplen - 1] = true; } else if (pat[i] ==
-         * np[nplen - 1]) { count[nplen - 1]++; } else { np[nplen++] = pat[i]; } }
-         */
-        /*
-         * char[] ns = new char[ls]; int[] scount = new int[ls]; int nslen = 1; ns[0] =
-         * str[0]; scount[0] = 1; for (int i = 1; i < ls; i++) { if (str[i] == ns[nslen
-         * - 1]) { scount[nslen - 1]++; } else { ns[nslen++] = str[i]; } } int i = 0;
-         * int j = 0; for (; i < nslen && j < nplen;) { if (changeable[j]) { if
-         * (count[j] == 0) { if (match(ns[i], np[j])) { i++; j++; } else { j++; } } else
-         * { if (match(ns[i], np[j]) && scount[i] >= count[j]) { i++; j++; } else {
-         * return false; } } } else { if (match(ns[i], np[j]) && scount[i] == count[j])
-         * { i++; j++; } else { return false; } } } return (i == nslen) && (j == nplen);
-         */
     }
 
     private boolean match(char s, char p) {
