@@ -14,6 +14,4 @@
 
 [32. Longest Valid Parentheses](doc/32.md)
 
-[33. Search in Rotate Sorted Array](doc/33.md)
-
 如果有不同看法欢迎讨论~
