@@ -16,6 +16,4 @@
 
 [33. Search in Rotate Sorted Array](doc/33.md)
 
-[121. Best Time to Buy and Sell Stock](doc/121.md) 
-
 如果有不同看法欢迎讨论~
