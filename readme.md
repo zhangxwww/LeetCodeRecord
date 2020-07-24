@@ -16,4 +16,6 @@
 
 [44. Wildcard Matching](doc/markdown/44.md)
 
+[84. Largest Rectangle in Histogram & 85. Maximal Rectangle](doc/markdown/84&85.md)
+
 如果有不同看法欢迎讨论~
