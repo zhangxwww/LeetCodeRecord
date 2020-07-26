@@ -2,3 +2,4 @@
 *.json
 *.py
 .helper/
+*.ipynb
