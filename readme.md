@@ -20,4 +20,6 @@
 
 [99. Recover Binary Search Tree](doc/markdown/99.md)
 
+[214. Shortest Palindrome](doc/markdown/214.md)
+
 如果有不同看法欢迎讨论~
